@@ -1,0 +1,12 @@
+This document will serve as a log for custom settings on a Windows machine.  This will be useful if I reformat or want to move to another computer.
+
+It may be wise to figure out a script to set these settings up.
+
+Write aliases in $profile file. Open with notepad.
+Set policy for profile to run (error if you open new powershell with stuff in your profile file)
+
+
+Aliases
+_______
+fuction pyDir { cd D:/Development/python }
+set-alias python-practice pyDir
