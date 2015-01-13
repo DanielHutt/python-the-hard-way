@@ -5,6 +5,10 @@ It may be wise to figure out a script to set these settings up.
 Install python, set environment variable: [Environment]::SetEnvironmentVariable("Path", "$env:Path;C:\Python27", "User")
 
 Write aliases in $profile file. Open with notepad.
+
+http://www.howtogeek.com/howto/12617/how-to-replace-notepad-in-windows-7/
+
+
 Set policy for profile to run (error if you open new powershell with stuff in your profile file)
 
 
